@@ -1,0 +1,122 @@
+
+<html>
+    <head>
+        <title> </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        
+    <!--<center> <H1 style="text-align:center;color:cyan;">Library Management System</H1></center>-->
+    <form method="get" action="home">
+        <div style="width:1100; height:1000px; margin:auto; border-style:solid; border-color:grey;border-width:5px; background-color: lightgrey"/>
+        <h1 id="header" style="text-align: center;">LIBRARY  MANAGEMENT  SYSTEM</h1>
+        <hr>
+        
+        <div style="width: 650px;margin: auto;margin-top: 100px">
+            <fieldset>
+                <legend>Registration Form</legend>
+                <table border="1">
+                    <!--row 1-->
+                    <tr>
+                    <th><label>User Id:</label></th>
+                    <td><input type="text" name="id" required placeholder="Enter id:"/></td>
+                    </tr>
+                    <!--row 2-->
+                    <tr> 
+                        <th><label>First Name:</label></th>
+                        <td><input type="text" name="firstname" required placeholder="First name"/></td>
+                        <th><label>Last Name:</label></th>
+                        <td><input type="text" name="lastname" required placeholder="Last name"/></td>
+                    </tr>
+                    <!--row 2-->
+                    <tr>
+                        <th><label>Password:</label></th>
+                        <td><input type="password" name="pwd" required placeholder="Enter Password:"/></td>
+                    </tr>
+                    <!--row 3-->
+                    <tr>
+                        <th> <label>Date of Birth:</label></th>
+                        <td><input type="text" name="date" placeholder="mm/dd/yy"/></td>
+                    </tr>
+            
+            <!--row 4-->
+            <tr>
+                <th><label>Email Id:</label></th>
+                <td><input type="email" name="email" placeholder="Enter Emial Id:"/></td>
+            </tr>
+            <!--row 5-->
+            <tr>
+                <th><label>Gender:</label></th>
+                <td><input type="radio" name="gender" value="male"/>Male
+                <input type="radio" name="gender" value="female"/>Female</td>
+            </tr>
+            <!--row 6-->
+            <tr>
+                <th><label>Address:</label></th>
+                <td><input type="text" name="address" placeholder="Enter your address:"/></td>
+           </tr>
+             <!--row 7-->
+            <tr>
+                <th><label>Mobile No.:</label></th>
+                <td>
+                    <select>
+                        <option selected>--+91--</option>
+                        <option>+91</option>
+                        <option>+87</option>
+                        <option>+14</option>
+                        <option>+12</option>
+                    </select></td>
+                    <td>
+                    <input type="text" name="MobileNo" placeholder="98480*****"/>
+                </td> 
+                    
+            </tr>
+            <!--row 8-->
+            <tr>
+                <th><label>City:</label></th>
+                <td><select name="city">
+                <option value="Null" selected>--Select City--</option>
+                <option value="New Delhi">NDLS</option>
+                <option value="Faridabadh">FBD</option>
+                <option value="Jalandhar">JAL</option>
+                <option value="Chandigarh">CHD</option>
+                
+                    </select></td>
+            </tr>
+            <!--row 9-->
+            <tr>
+                <th><label>Lang Known:</label></th>
+                <td><input type="checkbox" value="Hindi" name="lang"/>HINDI
+                <input type="checkbox" value="English" name="lang"/>ENGLISH</td>
+                <td><input type="checkbox" value="telugu" name="lang"/>TELUGU
+                <input type="checkbox" value="punjabi" name="lang"/>PUNJABI</td>
+            </tr>
+            <!--row 10-->
+            <tr>
+                <th><label>Qualification:</label></th>
+                <td><select name="Qualification">
+                <option value="Null" selected>--Select Qualification--</option>
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="B.tech">B.tech</option>
+                <option value="M.tech">M.tech</option>
+                <option value="MBA">MBA</option>
+                    </select></td>
+            </tr>
+            <!--row 11-->
+            
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Registration"/></td>
+            </tr>
+                </table>
+            </fieldset>
+            
+        </form>
+    
+    
+        
+    </body>
+</html>
